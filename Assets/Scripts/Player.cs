@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         cam.transform.position = this.transform.position;
         cam.transform.rotation = this.transform.rotation;
 
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
